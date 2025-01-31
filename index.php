@@ -28,11 +28,11 @@
       <ul class="navbar-nav custom-nav ps-5">
         <li class="nav-item custom-nav-item"><a href="index.php" class="nav-link">Home</a></li>
         <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Course</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Payment Status</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">My Profile</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Logout</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Payment</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Profile</a></li>
         <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Login</a></li>
         <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Signup</a></li>
+        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">logout</a></li>
         <li class="nav-item custom-nav-item"><a href="#" class="nav-link">FeedBack</a></li>
         <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Contact</a></li>
       </ul>
