@@ -181,7 +181,7 @@ Us Container-->
 <h2 class="text-center mb-4">Contact US</h2> <!-- Contact Us 
 Heading --> 
 <div class="row"> <!--Start Contact Us Row--> 
-<div class="col-md-8"> <!--Start Contact Us 1st Column--> 
+<div class="col-md-8"> <!--Start Contact Us 1st Columns--> 
 <form action="" method="post"> 
 <input type="text" class="form-control" name="name" 
 placeholder="Name"><br> 
