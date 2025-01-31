@@ -51,13 +51,33 @@
     <div class="vid-content">
          <h1 class="my-content">Welcome to EDUNEST</h1>
          
-         <small class="my-content py-5">Learn & implement</small>
+         <small class="my-content my-5">Learn & implement</small>
                   <br>
-         <a href="#"class="btn btn-danger py-2">Get Started</a>
+         <a href="#"class="btn btn-danger my-2">Get Started</a>
     </div>
 </div>
 
  <!-- end video bg -->
+
+ <!-- text Banner -->
+    <div class="container-fluid bg-danger txt-banner">
+        <div class="row bottom-banner">
+             <div class="col-sm">
+             <h5><i class="fas fa-book-open mr-3"></i>100+ online courses</h5>
+             </div>
+             <div class="col-sm">
+             <h5><i class="fas fa-users mr-3"></i>Expert Instructors</h5>
+             </div>
+             <div class="col-sm">
+             <h5><i class="fas fa-keyboard mr-3"></i>Lifetime Access</h5>
+             </div>
+             <div class="col-sm">
+             <h5><i class="fas fa-dollar-sign mr-3"></i>Money Back Guarntee</h5>
+             </div>
+        </div>
+
+    </div>
+ <!-- end Banner --> 
 
     <!-- Bootstrap & Jquery JS -->
   <script src="js/jquery.min.js"></script>  
