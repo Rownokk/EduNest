@@ -20,7 +20,7 @@
      <nav class="navbar navbar-expand-sm navbar-dark  ps-5 fixed-top">
      <div class="container-fluid">
     <a class="navbar-brand" href="index.php">EduNest</a>
-    <span class="navbar-text">Learn & Implement</span>
+    <span class="navbar-text">Learn And Implement</span>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
