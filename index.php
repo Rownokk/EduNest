@@ -17,8 +17,8 @@
 </head>
 <body>
      <!-- Start Navigation -->
-     <nav class="navbar navbar-expand-sm navbar-dark bg-dark ps-5">
-  <div class="container-fluid">
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark ps-5 fixed-top">
+     <div class="container-fluid">
     <a class="navbar-brand" href="index.php">EduNest</a>
     <span class="navbar-text">Learn & Implement</span>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,17 +37,26 @@
         <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Contact</a></li>
       </ul>
     </div>
-  </div>
+</div>
 </nav>
       <!-- End Navigation -->
 <!-- start video background -->
-  <div class="container-fluid">
-    <div>
-      <video>
-        <source src="video/banvid.mp4">
+<div class="container-fluid remove-vid-marg ">
+    <div class="vid-parent">
+      <video playsinline autoplay muted loop>
+        <source src="video/bg.mp4" type="video/mp4">
       </video>  
+      <div class="vid-overlay"></div>
     </div>
-  </div>
+    <div class="vid-content">
+         <h1 class="my-content">Welcome to EDUNEST</h1>
+         
+         <small class="my-content py-5">Learn & implement</small>
+                  <br>
+         <a href="#"class="btn btn-danger py-2">Get Started</a>
+    </div>
+</div>
+
  <!-- end video bg -->
 
     <!-- Bootstrap & Jquery JS -->

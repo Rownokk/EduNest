@@ -16,3 +16,39 @@
     border:solid #dc3545 1px;
     border-radius: 10px;
   }
+
+
+/* Make video full screen like navbar */
+.vid-parent {
+    position: relative;   
+}
+
+/* Ensure video covers full screen */
+video{
+    width:100%;
+    height: 100%;
+}
+
+/* Remove unwanted spacing */
+.remove-vid-marg {
+    margin: 0px;
+    padding: 0px;
+}
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(173, 216, 230, 0.6);
+    z-index: 1;
+    opacity: 0.8;
+}  
+.vid-content {
+    position:absolute;
+    z-index: 2;
+    top:35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}           
