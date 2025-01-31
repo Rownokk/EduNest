@@ -2,12 +2,14 @@
 .navbar-brand {
     font-family: "Dancing Script", serif;
     font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 2em;
-    color:#fff;
+    font-weight: 900;
+    font-size: 6em;
+    color:#dc3545 !important;
+    letter-spacing: 2px; 
   }
-                                
+  .navbar-text{
+  color: #fff !important;
+  }
   .custom-nav .custom-nav-item a{
     color:#fff !important;
   }
@@ -60,6 +62,19 @@ video{
     .my-content,
     .txt-banner {
         display: none;
+    }
+    .vid-content {
+        top: 12%;
+        left:60%;
+    }
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #225470;
+    }
+    .custom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
     }
 } 
 

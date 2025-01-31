@@ -17,7 +17,7 @@
 </head>
 <body>
      <!-- Start Navigation -->
-     <nav class="navbar navbar-expand-sm navbar-dark bg-dark ps-5 fixed-top">
+     <nav class="navbar navbar-expand-sm navbar-dark  ps-5 fixed-top">
      <div class="container-fluid">
     <a class="navbar-brand" href="index.php">EduNest</a>
     <span class="navbar-text">Learn & Implement</span>
