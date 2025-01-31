@@ -1,93 +1,115 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:darkcyan !important; /* Ensure navbar is visible */
+    padding: 10px 20px;
+}
+
 .navbar-brand {
-    font-family: "Dancing Script", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-size: 6em;
-    color: #dc3545 !important;
-    letter-spacing: 2px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 1.5em !important;
+    color: #f8f9fa !important;
+    text-shadow: 2px 2px 5px rgba(220, 20, 60, 0.5); /* Elegant shadow effect */
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
 }
 
-.navbar-text {
-    color: #fff !important;
+.navbar-brand:hover {
+    color: #ff4d4d !important; /* Lighter crimson on hover */
+    text-shadow: 4px 4px 10px rgba(220, 20, 60, 0.7); /* Enhanced glow effect */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
+
+.navbar-text,
 .custom-nav .custom-nav-item a {
     color: #fff !important;
 }
 
+.custom-nav-item {
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
 .custom-nav-item:hover {
     background-color: #dc3545;
-    border: solid #dc3545 1px;
+    border: 1px solid #dc3545;
     border-radius: 10px;
 }
 
-
-/* Make video full screen like navbar */
+/* Fullscreen Video Background */
 .vid-parent {
     position: relative;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
 }
 
-/* Ensure video covers full screen */
 video {
     width: 100%;
     height: 100%;
-}
-
-/* Remove unwanted spacing */
-.remove-vid-marg {
-    margin: 0px;
-    padding: 0px;
+    object-fit: cover;
 }
 
 .vid-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    inset: 0;
     background-color: rgba(173, 216, 230, 0.6);
     z-index: 1;
     opacity: 0.8;
 }
 
+/* Video Content */
 .vid-content {
     position: absolute;
     z-index: 2;
     top: 35%;
-    left: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
 }
 
+/* Bottom Banner */
 .bottom-banner {
     color: #fff;
     padding: 10px;
+    text-align: center;
 }
 
+/* Decorative Stripe */
 .stripe {
-    background-image: linear-gradient(240deg, #ed213a, #93291e);
-
-
+    background: linear-gradient(240deg, #ed213a, #93291e);
     padding: 3rem;
-
     height: 13rem;
     margin-top: 4rem;
     transform: rotate(10deg);
     z-index: -5;
-
 }
 
-@media screen and (min-width:0px) and (max-width:700px) {
-
+/* Responsive Design */
+@media (max-width: 700px) {
     .my-content,
-    .txt-banner
+    .txt-banner,
     .stripe {
         display: none;
     }
 
     .vid-content {
-        top: 12%;
-        left: 60%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .custom-nav .custom-nav-item a {
@@ -96,8 +118,7 @@ video {
     }
 
     .custom-nav-item:hover {
-        background-color: none;
+        background-color: transparent;
         border: none;
-        border-radius: none;
     }
 }
