@@ -1,0 +1,18 @@
+
+.navbar-brand {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    color:#fff;
+  }
+  
+  .custom-nav .custom-nav-item a{
+    color:#fff !important;
+  }
+  .custom-nav-item:hover{
+    background-color: #dc3545;
+    border:solid #dc3545 1px;
+    border-radius: 10px;
+  }
