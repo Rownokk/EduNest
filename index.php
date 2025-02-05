@@ -12,10 +12,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="css/all.min.css">
-    <title>EduNest</title>
+ 
     
+    <!-- Student Testimonial Owl Slider CSS --> 
+
+<link rel="stylesheet" type="text/css" href="css/owl.min.css"> 
+<link rel="stylesheet" type="text/css" href="css/owl.theme.min.css"> 
+
+<link rel="stylesheet" type="text/css" href="css/testyslider.css"> 
+
+<title>EduNest</title>
 </head>
 <body>
+
+
      <!-- Start Navigation -->
       
      <nav class="navbar navbar-expand-sm navbar-dark  ps-5 fixed-top">
@@ -209,16 +219,114 @@ www.ischool.com </p>
 
 </div> <!-- End Contact Us Container--> 
 
+
+
+
+
+
 <!-- End Contact Us --> 
 
+<!-- Start Students Testimonial --> 
+232 
+<div class="container-fluid mt-5" style="background-color: 
+#487289" id="Feedback"> 
+<h1 class="text-center testyheading p-4"> Student's Feedback </
+h1> 
+<div class="row"> 
+<div class="col-md-12"> 
+<div id="testimonial-slider" class="owl-carousel"> 
+<div class="testimonial"> 
+<p class="description"> 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Expedita, dignissimos blanditiis. 
+</p> 
+<div class="pic"> 
+<img src="images/stu/student2.jpg" alt=""/> 
+</div> 
 
+<div class="testimonial-prof"> 
+<h4>Sonam</h4> 
+<small>Web Developer</small> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div>
+</div> <!--End Stuents Testimonial --> 
+
+<div class="container-fluid bg-danger"> <!--
+Start Social Follow --> 
+<div class="row text-white text-center p-1"> 
+<div class="col-sm"> 
+<a class="text-white social-hover" href="#"><i class="fab 
+fa-facebook-f"></i> Facebook</a> 
+</div> 
+<div class="col-sm"> 
+<a class="text-white social-hover" href="#"><i class="fab 
+fa-twitter"></i> Twitter</a> 
+</div> 
+<div class="col-sm"> 
+<a class="text-white social-hover" href="#"><i class="fab 
+fa-whatsapp"></i> WhatsApp</a> 
+
+</div> 
+<div class="col-sm"> 
+<a class="text-white social-hover" href="#"><i class="fab 
+fa-instagram"></i> Instagram</a> 
+</div> 
+</div> 
+</div> <!-- End Social Follow --> 
+
+
+
+<!-- Start About Section --> 
+<div class="container-fluid p-4" style="background-color: #E9ECEF"> 
+    <div class="container" style="background-color: #E9ECEF"> 
+        <div class="row text-center"> 
+            <div class="col-sm"> 
+                <h5>About Us</h5> 
+                <p>iSchool provides universal access to the world's best education, partnering with top universities and organizations to offer courses online.</p> 
+            </div> 
+            <div class="col-sm"> 
+                <h5>Category</h5> 
+                <a class="category-link" href="#">Web Development</a><br /> 
+                <a class="category-link" href="#">Web Designing</a><br /> 
+                <a class="category-link" href="#">Android App Dev</a><br /> 
+                <a class="category-link" href="#">iOS Development</a><br /> 
+                <a class="category-link" href="#">Data Analysis</a><br /> 
+            </div> 
+            <div class="col-sm"> 
+                <h5>Contact Us</h5> 
+                <p>iSchool Pvt Ltd <br> 12/A Dhanmondi Road <br> Dhaka, Bangladesh <br> Ph. 01700000000 </p> 
+            </div> 
+        </div> 
+    </div> 
+</div> 
+
+
+<!-- Start Footer --> 
+
+
+<footer class="container-fluid bg-dark text-center p-2"> 
+<small class="text-white">Copyright &copy; 2019 || Designed By 
+E-Learning || Admin Login</small> 
+</footer> <!-- End Footer--> 
+
+</div> <!-- End About Section -->
 
     <!-- Bootstrap & Jquery JS -->
   <script src="js/jquery.min.js"></script>  
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
+
   <!-- Font Awesome JS -->
   <script src="js/all.min.js"></script>
+
+  <!-- Student Testimonial Owl Slider JS -->
+<script type="text/javascript" src="js/owl.min.js"></script> 
+<script type="text/javascript" src="js/testyslider.js">
+</script> 
+
 </body>
 </html>
