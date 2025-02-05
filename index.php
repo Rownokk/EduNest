@@ -369,28 +369,39 @@ www.edunest.com </p>
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Student Registration</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-      <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+
+<!-- Start student registration form -->
+
+  <form>
+    <div class="form-group">
+      <i class="fas fa-user"></i>
+      <label for="stuname" class="p-1 font-weight-bold">Name</label>
+      <input class="form-control" placeholder="Name" name="stuname" id="stuname" type="text">
+    </div>
+
+    <div class="form-group">
+      <i class="fas fa-envelope"></i>
+      <label for="stuemail" class="p-1 font-weight-bold">Email</label>
+      <input type="email" class="form-control" placeholder="Email" name="stuemail" id="stuemail">
+      <small class="form-text">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+  <i class="fas fa-key"></i>
+  <label for="stupass" class="p-1 font-weight-bold">New Password</label>
+  <input type="password" class="form-control" placeholder="Password" name="stupass" id="stupass">
+
+
+</div>
+<form>
+  <!-- End student registration form -->
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
