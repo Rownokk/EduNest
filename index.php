@@ -64,8 +64,9 @@
          
          <small class="my-content my-5">Learn & implement</small>
                   <br>
-         <a href="#"class="btn btn-danger my-2">Get Started</a>
-    </div>
+                  <a href="#" class="btn btn-danger my-2" 
+                  data-toggle="modal" data-target="#exampleModal">Get Started</a>
+                 </div>
 </div>
 
  <!-- end video bg -->
@@ -311,6 +312,59 @@ fa-instagram"></i> Instagram</a>
 <small class="text-white">Copyright &copy; 2019 || Designed By 
 E-Learning || Admin Login</small> 
 </footer> <!-- End Footer--> 
+
+
+<!-- Start Student Registration Modal--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4.5 Modal Fix</title>
+    
+    <!-- Bootstrap 4.5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        This is a working Bootstrap 4.5 modal.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap & jQuery Scripts (Load jQuery first, then Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- End Student Registration Modal-->
+
+
+
+
+
+
+
+
+
 
 </div> <!-- End About Section -->
 
