@@ -27,29 +27,32 @@
 
 
      <!-- Start Navigation -->
-      
-     <nav class="navbar navbar-expand-sm navbar-dark  ps-5 fixed-top">
-     <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">EduNest</a>
-    <span class="navbar-text">Learn And Implement</span>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <ul class="navbar-nav custom-nav ps-5">
-        <li class="nav-item custom-nav-item"><a href="index.php" class="nav-link">Home</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Course</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Payment</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Profile</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Login</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Signup</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">logout</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">FeedBack</a></li>
-        <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Contact</a></li>
-      </ul>
+  
+<nav class="navbar navbar-expand-sm navbar-dark ps-5 fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">EduNest</a>
+        <span class="navbar-text">Learn And Implement</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav custom-nav ps-5">
+                <li class="nav-item custom-nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Course</a></li>
+                <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Payment</a></li>
+                <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Profile</a></li>
+                <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Login</a></li>
+                <li class="nav-item custom-nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Signup</a>
+                </li> <!-- ✅ Fixed Closing Quote -->
+                <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Logout</a></li>
+                <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Feedback</a></li>
+                <li class="nav-item custom-nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
     </div>
-</div>
 </nav>
+
       <!-- End Navigation -->
 <!-- start video background -->
 <div class="container-fluid remove-vid-marg ">
@@ -363,7 +366,7 @@ www.edunest.com </p>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
@@ -372,7 +375,22 @@ www.edunest.com </p>
         </button>
       </div>
       <div class="modal-body">
-        This is a working Bootstrap 4.5 modal.
+      <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
