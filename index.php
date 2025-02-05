@@ -90,96 +90,98 @@
 
     </div>
  <!-- end Banner --> 
-<!--start most popular course-->
+<!-- Start Most Popular Courses -->
+<div class="container mt-5">
+  <h1 class="text-center">Popular Courses</h1>
 
- <div class="container mt-5">
-  <h1 class ="text-center">Popular Course</h1>
- <!-- Start Most Popular Course 1st Card Deck -->
-<div class="container mt-4">
-  <div class="d-flex flex-wrap justify-content-center gap-3">
-    
-    <div class="card" style="width:25rem;">
-      <img src="images/download (4).jpeg" class="card-img-top" alt="Guitar">
-      <div class="card-body">
-        <h5 class="card-title">Learn Guitar Easy Way</h5>
-        <p class="card-text">Lorem ipsum dolor sit meet consectetur adipisicing elit. Facilitis, nemo.</p>
+  <!-- First Card Deck -->
+  <div class="container mt-4">
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      
+      <div class="card" style="width:25rem;">
+        <img src="images/courseimg/ai.jpg" class="card-img-top" alt="Web Development">
+        <div class="card-body">
+          <h5 class="card-title">Master Web Development</h5>
+          <p class="card-text">Learn HTML, CSS, JavaScript, and modern frameworks to build stunning websites.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="card-text mb-0">Price: <small><del>&#8377 5000</del></small> <span class="font-weight-bolder">&#8377 500</span></p>
+          <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
+        </div>
       </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="card-text mb-0">Price: <small><del>&#8377 2000</del></small> <span class="font-weight-bolder">&#8377 200</span></p>
-        <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
-      </div>
-    </div>
 
-    <div class="card" style="width:25rem;">
-      <img src="images/download (4).jpeg" class="card-img-top" alt="Guitar">
-      <div class="card-body">
-        <h5 class="card-title">Learn Guitar Easy Way</h5>
-        <p class="card-text">Lorem ipsum dolor sit meet consectetur adipisicing elit. Facilitis, nemo.</p>
+      <div class="card" style="width:25rem;">
+        <img src="images/courseimg/Guitar.jpg" class="card-img-top" alt="Graphic Design">
+        <div class="card-body">
+          <h5 class="card-title">Graphic Design Essentials</h5>
+          <p class="card-text">Master Photoshop, Illustrator, and design principles to create stunning visuals.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="card-text mb-0">Price: <small><del>&#8377 4000</del></small> <span class="font-weight-bolder">&#8377 400</span></p>
+          <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
+        </div>
       </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="card-text mb-0">Price: <small><del>&#8377 2000</del></small> <span class="font-weight-bolder">&#8377 200</span></p>
-        <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
-      </div>
-    </div>
 
-    <div class="card" style="width:25rem;">
-      <img src="images/download (4).jpeg" class="card-img-top" alt="Guitar">
-      <div class="card-body">
-        <h5 class="card-title">Learn Guitar Easy Way</h5>
-        <p class="card-text">Lorem ipsum dolor sit meet consectetur adipisicing elit. Facilitis, nemo.</p>
+      <div class="card" style="width:25rem;">
+        <img src="images/courseimg/php.jpg" class="card-img-top" alt="Digital Marketing">
+        <div class="card-body">
+          <h5 class="card-title">Digital Marketing Mastery</h5>
+          <p class="card-text">Learn SEO, social media marketing, and paid advertising to grow businesses online.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="card-text mb-0">Price: <small><del>&#8377 4500</del></small> <span class="font-weight-bolder">&#8377 450</span></p>
+          <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
+        </div>
       </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="card-text mb-0">Price: <small><del>&#8377 2000</del></small> <span class="font-weight-bolder">&#8377 200</span></p>
-        <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
-      </div>
-    </div>
 
-  </div>
-</div>
-
-
-<!-- End Most Popular Course 1st Card Deck --> 
-<!-- Start Most Popular Course 2nd Card Deck -->
-<div class="container mt-4">
-  <div class="d-flex flex-wrap justify-content-center gap-3">
-    <div class="card" style="width: 25rem;">
-      <img src="images/download (3).jpeg" class="card-img-top" alt="Python">
-      <div class="card-body">
-        <h5 class="card-title">Learn Python</h5>
-        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, error.</p>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="card-text mb-0">Price: <small><del>&#8377 3000</del></small> <span class="font-weight-bolder">&#8377 300</span></p>
-        <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 25rem;">
-      <img src="images/download (3).jpeg" class="card-img-top" alt="Python">
-      <div class="card-body">
-        <h5 class="card-title">Learn Python</h5>
-        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, error.</p>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="card-text mb-0">Price: <small><del>&#8377 3000</del></small> <span class="font-weight-bolder">&#8377 300</span></p>
-        <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 25rem;">
-      <img src="images/download (3).jpeg" class="card-img-top" alt="Python">
-      <div class="card-body">
-        <h5 class="card-title">Learn Python</h5>
-        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, error.</p>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="card-text mb-0">Price: <small><del>&#8377 3000</del></small> <span class="font-weight-bolder">&#8377 300</span></p>
-        <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
-      </div>
     </div>
   </div>
+
+  <!-- Second Card Deck -->
+  <div class="container mt-4">
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      
+      <div class="card" style="width: 25rem;">
+        <img src="images/courseimg/python.jpg" class="card-img-top" alt="Data Science">
+        <div class="card-body">
+          <h5 class="card-title">Data Science Bootcamp</h5>
+          <p class="card-text">Learn Python, machine learning, and data visualization to become a data scientist.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="card-text mb-0">Price: <small><del>&#8377 6000</del></small> <span class="font-weight-bolder">&#8377 600</span></p>
+          <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 25rem;">
+        <img src="images/courseimg/Machine.jpg" class="card-img-top" alt="Mobile App Development">
+        <div class="card-body">
+          <h5 class="card-title">Mobile App Development</h5>
+          <p class="card-text">Create Android and iOS apps using Flutter and React Native.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="card-text mb-0">Price: <small><del>&#8377 5500</del></small> <span class="font-weight-bolder">&#8377 550</span></p>
+          <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 25rem;">
+        <img src="images/courseimg/super-mario-2690254_1280.jpg" class="card-img-top" alt="Cyber Security">
+        <div class="card-body">
+          <h5 class="card-title">Cyber Security Fundamentals</h5>
+          <p class="card-text">Learn ethical hacking, network security, and penetration testing.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <p class="card-text mb-0">Price: <small><del>&#8377 5000</del></small> <span class="font-weight-bolder">&#8377 500</span></p>
+          <a class="btn btn-primary text-white font-weight-bolder" href="#">Enroll</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
-<!-- End Most Popular Course 2nd Card Deck -->
+<!-- End Most Popular Courses -->
+
 
 <div class="text-center m-2">
   <a class="btn btn-danger btn-sm" href="#">View All Course</a>
@@ -209,12 +211,12 @@ value="Send" name="submit"><br><br>
 </div> <!-- End Contact Us 1st Column--> 
 <div class="col-md-4 stripe text-white text-center"> <!--
 Start Contact Us 2nd Column--> 
-<h4>iSchool</h4> 
-<p>iSchool, 
-Near Police Camp II, Bokaro, 
-Jharkhand 834005<br /> 
-Phone: +00000000 <br /> 
-www.ischool.com </p> 
+<h4>EduNest</h4> 
+<p>EduNest,  
+Banani, Dhaka 1213, Bangladesh <br />  
+Phone: +880 1700000000 <br />  
+www.edunest.com </p>
+ 
 </div> <!-- End Contact Us 2nd Column--> 
 </div> <!-- End Contact Us Row--> 
 
@@ -228,32 +230,30 @@ www.ischool.com </p>
 <!-- End Contact Us --> 
 
 <!-- Start Students Testimonial --> 
-232 
-<div class="container-fluid mt-5" style="background-color: 
-#487289" id="Feedback"> 
-<h1 class="text-center testyheading p-4"> Student's Feedback </
-h1> 
-<div class="row"> 
-<div class="col-md-12"> 
-<div id="testimonial-slider" class="owl-carousel"> 
-<div class="testimonial"> 
-<p class="description"> 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-Expedita, dignissimos blanditiis. 
-</p> 
-<div class="pic"> 
-<img src="images/stu/student2.jpg" alt=""/> 
-</div> 
 
-<div class="testimonial-prof"> 
-<h4>Sonam</h4> 
-<small>Web Developer</small> 
-</div> 
-</div> 
-</div> 
-</div> 
+<div class="container-fluid mt-5 py-5" style="background-color: #487289;" id="feedback">
+    <h1 class="text-center text-white fw-bold mb-4">Student's Feedback</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial text-center p-4 bg-white shadow rounded">
+                    <p class="description text-dark fw-normal mb-3"> 
+                        "For me, this is the best e-learning website."
+                    </p>
+                    <div class="pic mb-3">
+                        <img src="images/stu/Rownok.jpg" alt="Rownok" class="rounded-circle img-fluid" width="90">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="fw-semibold text-primary mb-1">Rownok</h4>
+                        <small class="text-muted">Web Developer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div> <!--End Stuents Testimonial --> 
+
+<!--End Stuents Testimonial --> 
 
 <div class="container-fluid bg-danger"> <!--
 Start Social Follow --> 
@@ -286,7 +286,7 @@ fa-instagram"></i> Instagram</a>
         <div class="row text-center"> 
             <div class="col-sm"> 
                 <h5>About Us</h5> 
-                <p>iSchool provides universal access to the world's best education, partnering with top universities and organizations to offer courses online.</p> 
+                <p>EduNest provides universal access to the world's best education, partnering with top universities and organizations to offer courses online.</p> 
             </div> 
             <div class="col-sm"> 
                 <h5>Category</h5> 
@@ -298,7 +298,7 @@ fa-instagram"></i> Instagram</a>
             </div> 
             <div class="col-sm"> 
                 <h5>Contact Us</h5> 
-                <p>iSchool Pvt Ltd <br> 12/A Dhanmondi Road <br> Dhaka, Bangladesh <br> Ph. 01700000000 </p> 
+                <p>EduNest Pvt Ltd <br> 12/A Dhanmondi Road <br> Dhaka, Bangladesh <br> Ph. 01700000000 </p> 
             </div> 
         </div> 
     </div> 
@@ -309,8 +309,7 @@ fa-instagram"></i> Instagram</a>
 
 
 <footer class="container-fluid bg-dark text-center p-2"> 
-<small class="text-white">Copyright &copy; 2019 || Designed By 
-E-Learning || Admin Login</small> 
+<small class="text-white">Copyright &copy; 2025 || Designed By Edu-Learning || Admin Login</small> 
 </footer> <!-- End Footer--> 
 
 

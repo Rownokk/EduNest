@@ -138,3 +138,10 @@ a.social-hover:hover {
     text-decoration: none;
     color: black;
 }
+
+.card-img-top {
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images fit without distortion */
+    width: 100%; /* Makes sure all images have the same width */
+  }
+  
