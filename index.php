@@ -229,32 +229,30 @@ www.edunest.com </p>
 <!-- End Contact Us --> 
 
 <!-- Start Students Testimonial --> 
-232 
-<div class="container-fluid mt-5" style="background-color: 
-#487289" id="Feedback"> 
-<h1 class="text-center testyheading p-4"> Student's Feedback </
-h1> 
-<div class="row"> 
-<div class="col-md-12"> 
-<div id="testimonial-slider" class="owl-carousel"> 
-<div class="testimonial"> 
-<p class="description"> 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-Expedita, dignissimos blanditiis. 
-</p> 
-<div class="pic"> 
-<img src="images/stu/student2.jpg" alt=""/> 
-</div> 
 
-<div class="testimonial-prof"> 
-<h4>Sonam</h4> 
-<small>Web Developer</small> 
-</div> 
-</div> 
-</div> 
-</div> 
+<div class="container-fluid mt-5 py-5" style="background-color: #487289;" id="feedback">
+    <h1 class="text-center text-white fw-bold mb-4">Student's Feedback</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial text-center p-4 bg-white shadow rounded">
+                    <p class="description text-dark fw-normal mb-3"> 
+                        "For me, this is the best e-learning website."
+                    </p>
+                    <div class="pic mb-3">
+                        <img src="images/stu/Rownok.jpg" alt="Rownok" class="rounded-circle img-fluid" width="90">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="fw-semibold text-primary mb-1">Rownok</h4>
+                        <small class="text-muted">Web Developer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div> <!--End Stuents Testimonial --> 
+
+<!--End Stuents Testimonial --> 
 
 <div class="container-fluid bg-danger"> <!--
 Start Social Follow --> 
@@ -299,7 +297,7 @@ fa-instagram"></i> Instagram</a>
             </div> 
             <div class="col-sm"> 
                 <h5>Contact Us</h5> 
-                <p>iSchool Pvt Ltd <br> 12/A Dhanmondi Road <br> Dhaka, Bangladesh <br> Ph. 01700000000 </p> 
+                <p>EduNest Pvt Ltd <br> 12/A Dhanmondi Road <br> Dhaka, Bangladesh <br> Ph. 01700000000 </p> 
             </div> 
         </div> 
     </div> 
@@ -310,8 +308,7 @@ fa-instagram"></i> Instagram</a>
 
 
 <footer class="container-fluid bg-dark text-center p-2"> 
-<small class="text-white">Copyright &copy; 2019 || Designed By 
-E-Learning || Admin Login</small> 
+<small class="text-white">Copyright &copy; 2025 || Designed By Edu-Learning || Admin Login</small> 
 </footer> <!-- End Footer--> 
 
 </div> <!-- End About Section -->
