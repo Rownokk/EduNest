@@ -254,54 +254,85 @@ www.edunest.com </p>
 
 <!--End Stuents Testimonial --> 
 
-<div class="container-fluid bg-danger"> <!--
-Start Social Follow --> 
-<div class="row text-white text-center p-1"> 
-<div class="col-sm"> 
-<a class="text-white social-hover" href="#"><i class="fab 
-fa-facebook-f"></i> Facebook</a> 
-</div> 
-<div class="col-sm"> 
-<a class="text-white social-hover" href="#"><i class="fab 
-fa-twitter"></i> Twitter</a> 
-</div> 
-<div class="col-sm"> 
-<a class="text-white social-hover" href="#"><i class="fab 
-fa-whatsapp"></i> WhatsApp</a> 
+<div class="container-fluid py-1" style="background-color:darkcyan ;">
+    <div class="text-center">
+        <h5 class="text-white fw-bold mb-3">Stay Connected With Us</h5>
+        <div class="d-flex justify-content-center gap-4">
+            <a class="social-icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon whatsapp" href="#"><i class="fab fa-whatsapp"></i></a>
+            <a class="social-icon instagram" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</div>
 
-</div> 
-<div class="col-sm"> 
-<a class="text-white social-hover" href="#"><i class="fab 
-fa-instagram"></i> Instagram</a> 
-</div> 
-</div> 
-</div> <!-- End Social Follow --> 
+<style>
+    .social-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    }
+
+    .facebook { background-color: #1877F2; }
+    .twitter { background-color: #1DA1F2; }
+    .whatsapp { background-color: #25D366; }
+    .instagram { background: linear-gradient(45deg, #E4405F, #F77737); }
+
+    .social-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+    }
+</style>
+
+<!-- End Social Follow --> 
 
 
 
 <!-- Start About Section --> 
-<div class="container-fluid p-4" style="background-color: #E9ECEF"> 
-    <div class="container" style="background-color: #E9ECEF"> 
-        <div class="row text-center"> 
-            <div class="col-sm"> 
-                <h5>About Us</h5> 
-                <p>EduNest provides universal access to the world's best education, partnering with top universities and organizations to offer courses online.</p> 
-            </div> 
-            <div class="col-sm"> 
-                <h5>Category</h5> 
-                <a class="category-link" href="#">Web Development</a><br /> 
-                <a class="category-link" href="#">Web Designing</a><br /> 
-                <a class="category-link" href="#">Android App Dev</a><br /> 
-                <a class="category-link" href="#">iOS Development</a><br /> 
-                <a class="category-link" href="#">Data Analysis</a><br /> 
-            </div> 
-            <div class="col-sm"> 
-                <h5>Contact Us</h5> 
-                <p>EduNest Pvt Ltd <br> 12/A Dhanmondi Road <br> Dhaka, Bangladesh <br> Ph. 01700000000 </p> 
-            </div> 
-        </div> 
-    </div> 
-</div> 
+<div class="container-fluid p-5" style="background-color: #E9ECEF ;">
+    <div class="container">
+        <div class="row text-center row-cols-1 row-cols-md-3 gy-4">
+            <!-- About Us -->
+            <div class="col">
+                <h5 class="fw-bold">About Us</h5>
+                <p class="text-muted">
+                    EduNest provides universal access to world-class education, partnering with top universities and organizations to offer online courses.
+                </p>
+            </div>
+
+            <!-- Categories -->
+            <div class="col">
+                <h5 class="fw-bold">Categories</h5>
+                <ul class="list-unstyled">
+                    <li><a class="category-link text-decoration-none text-muted" href="#">Web Development</a></li>
+                    <li><a class="category-link text-decoration-none text-muted" href="#">Web Designing</a></li>
+                    <li><a class="category-link text-decoration-none text-muted" href="#">Android App Dev</a></li>
+                    <li><a class="category-link text-decoration-none text-muted" href="#">iOS Development</a></li>
+                    <li><a class="category-link text-decoration-none text-muted" href="#">Data Analysis</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us -->
+            <div class="col">
+                <h5 class="fw-bold">Contact Us</h5>
+                <p class="text-muted">
+                    <i class="fas fa-building"></i> EduNest Pvt Ltd <br>
+                    <i class="fas fa-map-marker-alt"></i> 12/A Dhanmondi Road, Dhaka, Bangladesh <br>
+                    <i class="fas fa-phone"></i> Ph. 01700000000
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Start Footer --> 
@@ -309,7 +340,8 @@ fa-instagram"></i> Instagram</a>
 
 <footer class="container-fluid bg-dark text-center p-2"> 
 <small class="text-white">Copyright &copy; 2025 || Designed By Edu-Learning || Admin Login</small> 
-</footer> <!-- End Footer--> 
+</footer> 
+<!-- End Footer--> 
 
 </div> <!-- End About Section -->
 
