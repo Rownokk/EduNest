@@ -1,5 +1,5 @@
  <!--start student registration form-->
- <form>
+ <form id="stuRegForm">
       <div class="form-group mb-3">
             <i class="fas fa-user"></i>
             <label for="stuname" class="p1-5 fw-bold">Name</label>

@@ -1,54 +1,54 @@
 function addStu() {
-      var stuname = $("#stuname").val();
-      var stuemail = $("#stuemail").val();
-      var stupassword = $("#stupassword").val();
+    var reg = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i; // Corrected Regex
+    var stuname = $("#stuname").val().trim();
+    var stuemail = $("#stuemail").val().trim();
+    var stupassword = $("#stupassword").val().trim();
 
-      // checking Form Fields on Form Submission
-      if(stuname.trim() == ""){
-        $("#statusMsg1").html(
-            '<small style="color:red";>Please Enter Name !</small>'
-        );
+    // Checking Form Fields on Form Submission
+    if (stuname == "") {
+        $("#statusMsg1").html('<small style="color:red;">Please Enter Name!</small>');
         $("#stuname").focus();
         return false;
-      }
-      else if(stuemail.trim() == ""){
-        $("#statusMsg2").html(
-            '<small style="color:red";>Please Enter Email !</small>'
-        );
+    } else if (stuemail == "") {
+        $("#statusMsg2").html('<small style="color:red;">Please Enter Email!</small>');
         $("#stuemail").focus();
         return false;
-      }
-      else if(stupassword.trim() == ""){
-        $("#statusMsg3").html(
-            '<small style="color:red";>Please Enter Password !</small>'
-        );
+    } else if (!reg.test(stuemail)) { // Fixed email validation
+        $("#statusMsg2").html('<small style="color:red;">Please Enter Valid Email e.g. example@mail.com</small>');
+        $("#stuemail").focus();
+        return false;
+    } else if (stupassword == "") {
+        $("#statusMsg3").html('<small style="color:red;">Please Enter Password!</small>');
         $("#stupassword").focus();
         return false;
-      }else{
+    } else {
         $.ajax({
-            url:'Student/addstudent.php',
-            method:'POST',
-            dataType:"json",
-            data:{
+            url: 'Student/addstudent.php',
+            method: 'POST',
+            dataType: "json",
+            data: {
                 stusignup: "stusignup",
-                stuname : stuname,
-                stuemail : stuemail,
-                stupassword : stupassword,
-    
+                stuname: stuname,
+                stuemail: stuemail,
+                stupassword: stupassword,
             },
-            success:function(data){
+            success: function (data) {
                 console.log(data);
-                if(data== "OK"){
-                    $('#successMsg').html("<span class='alert alert-success'>Registration Successful !</span>");
-    
-                }else if (data == "Failed"){
+                if (data == "OK") {
+                    $('#successMsg').html("<span class='alert alert-success'>Registration Successful!</span>");
+                    clearStuRegField();
+                } else if (data == "Failed") {
                     $('#successMsg').html("<span class='alert alert-danger'>Unable to Register</span>");
-      
                 }
             },
-          });
-      }
+        });
+    }
+}
 
-
-    
+// Empty All Fields
+function clearStuRegField() {
+    $("#stuRegForm").trigger("reset");
+    $("#statusMsg1").html("");
+    $("#statusMsg2").html("");
+    $("#statusMsg3").html("");
 }
