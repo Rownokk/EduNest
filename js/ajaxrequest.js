@@ -1,3 +1,49 @@
+$(document).ready(function (){
+    $("#stuemail").on("keypress blur",function () {
+        var reg = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        var stuemail = $("#stuemail").val();
+        $.ajax({
+            url: "Student/addstudent.php",
+            method: "POST",
+            data: {
+                checkemail: "checkmail",
+                stuemail: stuemail,
+            },
+            success: function (data) {
+                //console.log(data);
+                if(data != 0){
+                    $("#statusMsg2").html(
+                '<small style="color:red;">Email Already Exists !</small>'
+            );
+             $("#signup").attr("disabled",true);
+                }else if(data == 0 && reg.test(stuemail)){
+                    $("#statusMsg2").html(
+                        '<small style="color:green;">You Can Continue Now !</small>'
+                    );
+                     $("#signup").attr("disabled",false);  
+                } else if(!reg.test(stuemail)){
+                    $("#statusMsg2").html(
+                        '<small style="color:red;">Please Enter Valid Email e.g. example@mail.com !</small>'
+                    );
+                     $("#signup").attr("disabled",false);
+                }
+                if(stuemail == ""){
+                    $("#statusMsg2").html(
+                        '<small style="color:red;">Please Enter Email !</small>'
+                    );
+                }
+            },
+        });
+    });
+});
+
+
+
+
+
+
+
+
 function addStu() {
     var reg = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i; // Corrected Regex
     var stuname = $("#stuname").val().trim();
