@@ -16,7 +16,7 @@ include('./mainInclude/header.php');
          
          <small class="my-content my-5">Learn & implement</small>
                   <br>
-                  <a href="#" class="btn btn-danger" 
+                  <a href="#" class="btn btn-danger my-3" 
                   data-bs-toggle="modal" data-bs-target="#stuRegModalright">Get Started</a>
                  </div>
 

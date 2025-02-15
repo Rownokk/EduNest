@@ -40,8 +40,11 @@
 <!--End student registration form-->
       </div>
       <div class="modal-footer">
-      <button type="button" class="btn btn-primary">Sign Up</button>
-      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <span id="successMsg"></span>
+      <button type="button" class="btn btn-primary"
+      onclick="addStu()">Sign Up</button>
+      <button type="button" class="btn btn-secondary" 
+      data-bs-dismiss="modal">Close</button>
   
       </div>
     </div>
@@ -171,6 +174,8 @@
 <script type="text/javascript" src="js/owl.min.js"></script> 
 <script type="text/javascript" src="js/testyslider.js">
 </script> 
+  <!-- student Ajax Call JavaScript -->
+  <script type="text/javascript" src="js/ajaxrequest.js"></script> 
 
 </body>
 </html>
