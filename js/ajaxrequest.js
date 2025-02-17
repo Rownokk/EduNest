@@ -98,3 +98,11 @@ function clearStuRegField() {
     $("#statusMsg2").html("");
     $("#statusMsg3").html("");
 }
+
+// Ajax Call for Student Login Verification
+function checkStuLogin() {
+   
+        console.log("data found");
+    
+  }
+  

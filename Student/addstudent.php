@@ -28,4 +28,20 @@ if($conn->query($sql) == TRUE){
     echo json_encode("Failed");
 }
 }
-?>
+// Student Login Verification
+// Student Login Verification
+
+    if(isset($_POST['checkLogemail']) && isset($_POST['stuLogEmail']) && isset($_POST['stulogpassword'])){
+      $stuLogEmail = $_POST['stuLogEmail'];
+      $stulogpassword = $_POST['stulogpassword'];
+      $sql = "SELECT stu_email, stu_pass FROM student WHERE stu_email='".$stuLogEmail."' AND stu_pass='".$stulogpassword."'";
+      $result = $conn->query($sql);
+      $row = $result->num_rows;
+      
+      if($row === 1){
+        echo json_encode($row);
+      } else if($row === 0) {
+        echo json_encode($row);
+      }
+    
+  }
