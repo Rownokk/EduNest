@@ -66,7 +66,7 @@
 <!--End student login form-->
       </div>
       <div class="modal-footer">
-      <button type="button" class="btn btn-primary" id="stuLoginBtn"onclick=" checkStuLogin()">Login</button>
+      <button type="button" class="btn btn-primary" id="stuLoginBtn"onclick="checkStuLogin()">Login</button>
       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
   
       </div>
@@ -162,3 +162,31 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

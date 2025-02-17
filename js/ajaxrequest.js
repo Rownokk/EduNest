@@ -98,11 +98,28 @@ function clearStuRegField() {
     $("#statusMsg2").html("");
     $("#statusMsg3").html("");
 }
-
-// Ajax Call for Student Login Verification
 function checkStuLogin() {
-   
-        console.log("data found");
+    // Get the values from the login form inputs
+    var stuLogEmail = $("#stulogemail").val();
+    var stuLogPass  = $("#stulogpassword").val();
     
+    $.ajax({
+      url: "Student/addstudent.php", // Make sure this path is correct
+      type: "post",
+      data: {
+        checkLogemail: "checklogmail",
+        stuLogEmail: stuLogEmail,
+        stuLogPass: stuLogPass
+      },
+      success: function(data) {
+        // The response will be "1" if login successful, or "0" if not.
+        console.log(data);
+        // You can update your UI based on the result here.
+      },
+      error: function(xhr, status, error) {
+        console.error("AJAX error:", error);
+      }
+    });
   }
   
+f

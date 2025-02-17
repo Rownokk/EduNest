@@ -29,19 +29,19 @@ if($conn->query($sql) == TRUE){
 }
 }
 // Student Login Verification
-// Student Login Verification
-
-    if(isset($_POST['checkLogemail']) && isset($_POST['stuLogEmail']) && isset($_POST['stulogpassword'])){
-      $stuLogEmail = $_POST['stuLogEmail'];
-      $stulogpassword = $_POST['stulogpassword'];
-      $sql = "SELECT stu_email, stu_pass FROM student WHERE stu_email='".$stuLogEmail."' AND stu_pass='".$stulogpassword."'";
-      $result = $conn->query($sql);
-      $row = $result->num_rows;
-      
-      if($row === 1){
-        echo json_encode($row);
-      } else if($row === 0) {
-        echo json_encode($row);
-      }
+if (isset($_POST['checkLogemail']) && isset($_POST['stuLogEmail']) && isset($_POST['stuLogPass'])) {
+    $stuLogEmail = $_POST['stuLogEmail'];
+    $stuLogPass  = $_POST['stuLogPass'];
     
-  }
+    // Make sure the column names match your database table (e.g., stu_email, stu_password)
+    $sql = "SELECT stu_email, stu_password FROM student 
+            WHERE stu_email = '".$stuLogEmail."' AND stu_password = '".$stuLogPass."'";
+    
+    $result = $conn->query($sql);
+    $row = $result->num_rows;
+    
+    // Return 1 if a match is found, or 0 if not.
+    echo json_encode($row);
+    exit();
+}
+?>
