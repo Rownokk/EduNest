@@ -112,14 +112,16 @@ function checkStuLogin() {
         stuLogPass: stuLogPass
       },
       success: function(data) {
-        // The response will be "1" if login successful, or "0" if not.
-        console.log(data);
-        // You can update your UI based on the result here.
-      },
-      error: function(xhr, status, error) {
-        console.error("AJAX error:", error);
+        if (data == 0) {
+            $("#statusLogMsg").html(
+              '<small class="alert alert-danger"> Invalid Email ID or Password ! </small>'
+            );
+          } else if (data == 1) {
+            $("#statusLogMsg").html(
+              '<div class="spinner-border text-success" role="status"></div>'
+            );
+       }
       }
     });
   }
   
-f

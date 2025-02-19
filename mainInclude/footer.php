@@ -66,6 +66,7 @@
 <!--End student login form-->
       </div>
       <div class="modal-footer">
+        <small id="statusLogMsg"></small>
       <button type="button" class="btn btn-primary" id="stuLoginBtn"onclick="checkStuLogin()">Login</button>
       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
   
